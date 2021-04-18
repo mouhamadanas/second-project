@@ -1,0 +1,229 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Overpass;  
+}
+header 
+{
+    background-image: url("../images/Screenshot\ \(6\).png");
+    height: 85vh;
+    background-repeat: no-repeat;
+    
+}
+header .container1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .container1 .cont-links1
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+header .container1 .cont-links1 .cont-links2
+{
+    display: flex;
+    color: aliceblue;
+}
+header .container1 .cont-links1 .cont-links2 h1
+{
+    margin-top: 55px;
+}
+header .container1 .cont-links1 .cont-links2 ul
+{
+    list-style: none;
+    display: flex;
+    margin-top: 65px;
+    width: 391px;
+}
+header .container1 .cont-links1 .cont-links2 ul li
+{
+    margin-right: 40px;
+}
+header .container1 .cont-links1 .cont-links2 ul li span
+{
+    cursor: pointer;
+}
+header .container1 .cont-links1 .cont-links2 ul li img
+{
+    transition: .4s;
+}
+header .container1 .cont-links1 .cont-links2 ul li:nth-child(3)
+{
+    margin-right: 0px;
+}
+header .container1 .cont-links1 .cont-links2 ul li div 
+{
+    background-color: white;
+    color: black;
+    padding: 15px 20px 15px 0px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 130px;
+    height: 100px;
+    display: none;
+    position: absolute;
+}
+header .container1 .cont-links1 .cont-links2 ul li div ol
+{
+    list-style: none;
+    padding: 0px 0px 0px 20px;
+}
+header .container1 .cont-links1 .cont-links2 ul li div ol li
+{
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s;
+}
+header .container1 .cont-links1 .cont-links2 ul li img
+{
+    cursor: pointer;
+}
+header .container1 .cont-links1 .cont-links2 ul li div ol li:hover
+{
+    font-weight: 700;
+    font-size: 15px;
+}
+header .container1 .cont-links1 .cont-btn
+{
+    margin-top: 65px;
+    
+
+}
+header .container1 .cont-links1 .cont-btn button
+{
+    cursor: pointer;
+}
+header .container1 .cont-links1 .cont-btn button:first-child
+{
+    color: blanchedalmond;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    opacity: .8;
+    
+}
+header .container1 .cont-links1 .cont-btn button:last-child
+{
+    color: hsl(356, 100%, 66%);
+    font-weight: 800;
+    border: none;
+    height: 41px;
+    width: 123px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-left: 18px;
+    
+
+}
+header .container1 .cont-links1 .cont-btn button:last-child:hover
+{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+}
+
+header .container1 > h1
+{
+    color: white;
+    font-weight: 600;
+    margin-top: 100px;
+    font-size: 50px;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+}
+header .container1 > p
+{
+    color: white;
+    margin-top: 0px;
+    opacity: .8;
+}
+header .container1 .cont-btn1
+{
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+header .container1 .cont-btn1 button
+{
+    cursor: pointer;
+}
+header .container1 .cont-btn1 button:first-child
+{
+    background-color: white;
+    font-weight: 700;
+        color:  hsl(356, 100%, 66%);
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+header .container1 .cont-btn1 button:first-child:hover
+{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+}
+header .container1 .cont-btn1 button:last-child
+{
+    font-weight: 700;
+    color: white;
+    border: .5px solid white;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background-color:  hsl(356, 100%, 66%);
+}
+header .container1 .cont-btn1 button:last-child:hover
+{
+    background-color: white;
+    color:  hsl(356, 100%, 66%);;
+}
+
+header .container1 .cont-links1>img
+{
+    margin-top: 60px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px)
+{
+    header .container1 >h1
+    {
+        font-size: 34px;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    header .container1 .cont-links1
+    {
+        justify-content: space-between;
+    }
+    header .container1 .cont-links1 .cont-links2 h1
+    {
+        margin-left: 30px;
+    }
+    header .container1 .cont-links1>img
+    {
+        margin-right: 30px;
+    }
+
+}
